@@ -6,8 +6,14 @@
 //
 
 import Foundation
+
+protocol  ModelDelegate {
+    func videofatched(_ videos:[Video])
+}
 class Model
+
 {
+    var delegate:ModelDelegate?
     func videos()
     {
     // create url
@@ -31,8 +37,14 @@ class Model
                 let decoder = JSONDecoder()
                 decoder.dateDecodingStrategy = .iso8601
                let response = try decoder.decode(Response.self, from: data!)
-                
-                dump(response)
+                if response.items != nil
+                {
+                    DispatchQueue.main.async {
+                        self.delegate?.videofatched(response.items!)
+                    }
+                   
+//                dump(response)
+                }
             }
             catch
             {

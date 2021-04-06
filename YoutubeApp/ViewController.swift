@@ -7,13 +7,54 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-public var model = Model()
+class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,ModelDelegate {
+    
+    
+
+    @IBOutlet weak var tableview: UITableView!
+    public var model = Model()
+    public var videos = [Video]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableview.delegate = self
+        tableview.dataSource = self
+        
+        //delegate to model
+        
+        model.delegate = self
         model.videos()
     }
-
+    
+    // MARK:// model delegate Methods
+    
+    func videofatched(_ videos: [Video]) {
+        //set videos to our video property
+        self.videos = videos
+        
+        //reload tableview
+        tableview.reloadData()
+    }
+    
+    
+    
+    // MARK:// tableview methods
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return videos.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableview.dequeueReusableCell(withIdentifier: Constants.VIDEOCELL_ID, for: indexPath)
+        // get the data
+        let title = videos[indexPath.row].title
+        cell.textLabel?.text = title
+        
+        // return cell
+        return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
 
 }
+
 
