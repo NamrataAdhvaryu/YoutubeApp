@@ -8,10 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+public var model = Model()
     override func viewDidLoad() {
         super.viewDidLoad()
-        var i = 0
+        model.videos()
     }
 
 
