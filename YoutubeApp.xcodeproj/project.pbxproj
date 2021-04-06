@@ -18,6 +18,7 @@
 		84EA4C09261BA7AD006BAA0B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA4C08261BA7AD006BAA0B /* Video.swift */; };
 		84EA4C0C261BA897006BAA0B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA4C0B261BA897006BAA0B /* Model.swift */; };
 		84EA4C11261CD5B7006BAA0B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA4C10261CD5B7006BAA0B /* Response.swift */; };
+		84EA4C16261CF5FB006BAA0B /* ConstantsTemplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA4C15261CF5FB006BAA0B /* ConstantsTemplete.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		84EA4C08261BA7AD006BAA0B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		84EA4C0B261BA897006BAA0B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		84EA4C10261CD5B7006BAA0B /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		84EA4C15261CF5FB006BAA0B /* ConstantsTemplete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplete.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				84EA4C08261BA7AD006BAA0B /* Video.swift */,
 				84EA4C0B261BA897006BAA0B /* Model.swift */,
 				84EA4C10261CD5B7006BAA0B /* Response.swift */,
+				84EA4C15261CF5FB006BAA0B /* ConstantsTemplete.swift */,
 			);
 			path = YoutubeApp;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				84EA4C11261CD5B7006BAA0B /* Response.swift in Sources */,
 				84EA4C0C261BA897006BAA0B /* Model.swift in Sources */,
 				84EA4C06261BA3C0006BAA0B /* Constants.swift in Sources */,
+				84EA4C16261CF5FB006BAA0B /* ConstantsTemplete.swift in Sources */,
 				84EA4C09261BA7AD006BAA0B /* Video.swift in Sources */,
 				849896CB261B7DF3004C672D /* ViewController.swift in Sources */,
 				849896D1261B7DF3004C672D /* YoutubeApp.xcdatamodeld in Sources */,
