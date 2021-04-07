@@ -43,6 +43,10 @@ Google APIs:
 
 # screenshots
 
+![Simulator Screen Shot - iPhone 11 - 2021-04-07 at 17 07 22](https://user-images.githubusercontent.com/70209068/113934880-490e7300-97c4-11eb-8fff-8936a08a2137.png)
+![Simulator Screen Shot - iPhone 11 - 2021-04-07 at 17 07 49](https://user-images.githubusercontent.com/70209068/113934890-4c096380-97c4-11eb-8aca-6517270d70cc.png)
+![Simulator Screen Shot - iPhone 11 - 2021-04-07 at 17 08 09](https://user-images.githubusercontent.com/70209068/113934900-4f045400-97c4-11eb-8beb-cd9f7a2759d5.png)
+![Simulator Screen Shot - iPhone 11 - 2021-04-07 at 17 08 33](https://user-images.githubusercontent.com/70209068/113934971-54fa3500-97c4-11eb-83bd-694e11ba83ae.png)
 
 
 
