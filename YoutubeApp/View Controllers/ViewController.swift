@@ -34,6 +34,15 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         //reload tableview
         tableview.reloadData()
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard tableview.indexPathForSelectedRow != nil else {
+            return
+        }
+        let selectedvideo = videos[tableview.indexPathForSelectedRow!.row]
+     let detailVC =   segue.destination as! DetailViewController
+        detailVC.video = selectedvideo
+        
+    }
     
     
     
