@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,ModelDelegate {
     
+
+   
     
 
     @IBOutlet weak var tableview: UITableView!
@@ -18,6 +20,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         tableview.delegate = self
         tableview.dataSource = self
+       
         
         //delegate to model
         
