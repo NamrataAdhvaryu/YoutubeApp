@@ -35,6 +35,7 @@ Each track contain the following info:
 - Xcode 12
 - Cocoapods
 - Bitrise(Testing)
+- MVVM(Coding Pattern)
 - Git(Regular pushing-commiting) 
  
 Google APIs: 
